@@ -8,6 +8,9 @@ sudo pacman -S xorg-server xorg-xinit xorg-xinit xorg-xrandr xorg-xsetroot
 # This moves the xinitrc config to the correct place
 cp /etc/X11/xinit/xinitrc .xinitrc
 
+# This moves up 1 directory
+cd ../
+
 # This downloads the DWM git from suckless
 git clone https://git.suckless.org/dwm
 
