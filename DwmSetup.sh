@@ -10,3 +10,6 @@ cp /etc/X11/xinit/xinitrc .xinitrc
 
 # This downloads the DWM git from suckless
 git clone https://git.suckless.org/dwm
+
+# This downloads the ST terminal from suckless
+git clone https://git.suckless.org/st
