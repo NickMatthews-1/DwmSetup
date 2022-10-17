@@ -17,7 +17,7 @@ echo "you need to remove the final 5 lines and replace it with"
 echo "exec dwm"
 
 # This downloads and installs the packages needed for DWM
-sudo pacman -S xorg-server xorg-xinit xorg-xinit xorg-xrandr xorg-xsetroot
+sudo pacman -S xorg-server xorg-xinit xorg-xinit xorg-xrandr xorg-xsetroot libxft libxinerama
 
 # This moves up 1 directory
 cd ../
